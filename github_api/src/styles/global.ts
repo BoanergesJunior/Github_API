@@ -1,10 +1,8 @@
 import {createGlobalStyle} from 'styled-components'
 import githubBackground from '../assets/github-background.svg'
 
-
 export default createGlobalStyle`
     * {
-
         padding: 0;
         outline: 0;
         box-sizing: border-box;
