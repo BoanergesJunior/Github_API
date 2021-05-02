@@ -6,7 +6,6 @@ import GlobalStyle from './styles/global'
 
 const App: React.FC = () => {
   return (
-
     <React.Fragment>
         <BrowserRouter>
             <Routes />
