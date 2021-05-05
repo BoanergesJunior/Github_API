@@ -6,8 +6,6 @@ import logoImg from '../../assets/logo.svg'
 import { FiChevronRight} from 'react-icons/fi'
 import api from '../../services/api'
 
-import {Link} from 'react-router-dom'
-
 interface Repository {
     full_name: string
     description: string
@@ -74,7 +72,7 @@ const Dashboard: React.FC = () => {
 
             <Repositories>
                 {repositories.map(repository => (
-                    <Link key={repository.full_name} to={`repositories/${repository.full_name}`}>
+                    <a key={repository.full_name} href="teste">
                     <img src={repository.owner.avatar_url} alt={repository.owner.login}/>
 
                     <div>
@@ -83,7 +81,7 @@ const Dashboard: React.FC = () => {
                     </div>
 
                     <FiChevronRight size={20}/>
-                </Link>
+                </a>
                 ))}
 
             </Repositories>
