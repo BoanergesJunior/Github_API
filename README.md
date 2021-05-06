@@ -7,9 +7,9 @@ $git clone https://github.com/BoanergesJunior/Github_API.git
 
 ### Para executar
 ```bash
-$cd Github_API/github_api
-$yarn i
-$yarn start
+$cd Github_API
+$yarn install | npm install
+$yarn start | npm start
 
 A aplicação pode ser observada no browser em http://localhost:3000
 ```
